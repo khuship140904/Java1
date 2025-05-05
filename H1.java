@@ -2,17 +2,13 @@
 class H1 {
     public static void main(String[] args) {
         int[][] x={{12,23,45,56},{5,7,9},{3,34}};
-        int[][] y= x;
+        int[][] y= new int[x.length][];
 
-      /* with Enhanced for loop-
-      
-      for(int[] next : x){
-            for(int next1 : next){
-                y[next1]=x[next1];
-                }
+        System.out.println(x);
+        System.out.println(y);
 
-        }*/
-        for(int i=0;i<x.length;i++){
+        for(int i=0;i<y.length;i++){
+            y[i]=new int[x[i].length];
             for(int j=0;j<x[i].length;j++){
                 y[i][j]=x[i][j];
             }
