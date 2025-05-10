@@ -23,8 +23,8 @@
         
         System.out.println("-----------ARRAY AFTER REVERSE----------");
 
-        for(int i=x.length-1;i<x.length&&i>=0;i--){
-            for(int j=x[i].length-1;j<x[i].length&&j>=0;j--){
+        for(int i=y.length-1;i<y.length&&i>=0;i--){
+            for(int j=y[i].length-1;j<y[i].length&&j>=0;j--){
                System.out.print(y[i][j]+" ");
         }
         System.out.println();

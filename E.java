@@ -1,27 +1,26 @@
-/*HR string introduction */
-
-/* string karne ke baad
-import java.util.Scanner;
-class E {
-public static void main(String[] args) {
-    Scanner sc= new Scanner(System.in);
-    String s1=sc.nextLine();
-    String s2=sc.nextLine();
-
-   
-
-    for(int i=0; i)
+import java.io.*;
+import java.util.*;
 
 
+class parallellogram{
 
-
-    System.out.println(s1.length()+s2.length());
-
-
-    
         
+        static {
+            Scanner sc =new Scanner(System.in);
+        int n1=sc.nextInt();
+        int n2=sc.nextInt();
+            if(n1>0&&n2>0){
+            int res=n1*n2;
+            System.out.println(res);
+            }
+            else{
+             System.out.println("java.lang.Exception: Breadth and height must be positive");
+            }
+        }
+}
+
+public class E {
+public static void main(String[] args) {
+         parallellogram obj=new parallellogram();
     }
-
-
-    
-}*/
+} 

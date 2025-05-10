@@ -20,7 +20,7 @@ System.out.println("-----------ARRAY BEFORE REVERSE----------");
        }
 System.out.println("-----------ARRAY AFTER REVERSE----------");
 
-        for(int i=x.length-1;i<x.length&&i>=0;i--){
+        for(int i=y.length-1;i<y.length&&i>=0;i--){
         for(int j=0;j<y[i].length;j++){
             System.out.print(y[i][j]+" ");
         }
